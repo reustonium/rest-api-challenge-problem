@@ -1,0 +1,35 @@
+{
+  "name": "rest-api-challenge-problem",
+  "version": "0.1.0",
+  "description": "A challenge problem for demonstrating familiarity with modern software engineering processes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src --exec \"babel-node src --presets env\"",
+    "test": "jest"
+  },
+  "repository": "reustonium/rest-api-challenge-problem",
+  "author": "Andy Ruestow <andy@ruestow.me>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.3",
+    "prettier": "^1.14.2",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "text-summary"
+    ]
+  }
+}
