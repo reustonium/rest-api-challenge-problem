@@ -13,4 +13,8 @@ birdsRouter.get('/:birdID', (req, res) => {
   res.json(myBird);
 });
 
+birdsRouter.get('/', (req, res) => {
+  res.json(birdData.birds);
+});
+
 export default birdsRouter;
