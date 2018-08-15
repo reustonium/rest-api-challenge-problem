@@ -22,4 +22,4 @@ Good Luck! :-)
 `curl localhost:8080/api/v1/bird/142`
 
 You should see the response from the server that looks like this...
-`{"name":"aardvark","id":142}`
+`{"name":"avocet","id":142}`
